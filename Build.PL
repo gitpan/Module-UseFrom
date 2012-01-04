@@ -7,7 +7,6 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Data::Dumper" => 0,
     "Module::Build" => "0.3601",
     "Test::More" => 0
   },
@@ -19,7 +18,7 @@ my %module_build_args = (
     "Joel Berger <joel.a.berger\@gmail.com>"
   ],
   "dist_name" => "Module-UseFrom",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Module::UseFrom",
   "recommends" => {},
@@ -29,6 +28,8 @@ my %module_build_args = (
     "Devel::Declare" => 0,
     "ExtUtils::Installed" => 0,
     "Module::CoreList" => 0,
+    "Scalar::Util" => 0,
+    "perl" => "v5.8.1",
     "strict" => 0,
     "version" => "0.77",
     "warnings" => 0

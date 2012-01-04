@@ -5,8 +5,9 @@ META.yml
 README
 dist.ini
 lib/Module/UseFrom.pm
-t/array.t
-t/hash-hashref.t
-t/options.t
-t/scalar-import.t
-t/scalar.t
+t/00-use.t
+t/import.t
+t/import_all.t
+t/import_other.t
+t/use_from.t
+t/use_if_available.t
