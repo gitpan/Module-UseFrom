@@ -1,6 +1,6 @@
 package Module::UseFrom;
 {
-  $Module::UseFrom::VERSION = '0.02';
+  $Module::UseFrom::VERSION = '0.03';
 }
 
 use strict;
@@ -94,7 +94,7 @@ sub import {
   }
 
   # if called without explicit imports
-  unless (keys $export) {
+  unless (keys %$export) {
     $export->{'use_from'} = $export_ok{'use_from'};
   }
 
