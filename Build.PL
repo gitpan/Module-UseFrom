@@ -18,7 +18,7 @@ my %module_build_args = (
     "Joel Berger <joel.a.berger\@gmail.com>"
   ],
   "dist_name" => "Module-UseFrom",
-  "dist_version" => "0.03",
+  "dist_version" => "0.03_001",
   "license" => "perl",
   "module_name" => "Module::UseFrom",
   "recommends" => {},
